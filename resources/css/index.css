@@ -1,0 +1,44 @@
+body {
+  /* Old browsers */
+  background: #141E30;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 0;
+}
+
+p, li {
+  color: AliceBlue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.portrait {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  height: 120px;
+}
+.byline {
+  font-family: Helvetica;
+  float: left;
+  font-size: 50px;
+  padding-left: 35px;
+  text-transform: uppercase;
+}
+.content {
+  padding: 40px;
+}
+.buffer {
+  padding: 85px;
+}
